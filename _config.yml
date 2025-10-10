@@ -8,16 +8,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : Your Name
+title                    : Teddy Rauchway
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
-name                     : Your Name
-description              : Your Name - Projects and CV 
-baseurl                  : "" # Set this to your repo name 
+subtitle                 : "Cornell MAE Portfolio - Fall 2025"
+name                     : Teddy Rauchway
+description              : Teddy Rauchway - Projects and CV 
+baseurl                  : "fa25-portfolio-tsr53-web" # Set this to your repo name 
 
 # Theme and Style
 theme: jekyll-theme-minimal
-color_scheme: light # light/default, dark, or aqua
+color_scheme: aqua # light/default, dark, or aqua
 
 sass:
   style: compressed
