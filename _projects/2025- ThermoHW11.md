@@ -3,7 +3,7 @@ layout: project
 title: Thermo HW11
 description: Thermodynamic Analysis of a Piston Engine
 technologies: N/a
-image: C:\Users\74975\Desktop\Statics GitHub\fa25-portfolio-tsr53-web\assets\images\dmrjskf.gif
+image: assets/images/image_2025-11-24_152027144.png
 ---
 
 # Thermodynamic Analysis of a Piston Engine
@@ -50,29 +50,80 @@ In November 2025, as part of a homework for a thermodynamics class I had to anal
 ## Mass Balance
 Mass in = Mass out  
 
+---
+
 ## Energy Balance
-\[
-\text{Power}_{\text{shaft}} = \dot{Q}_{\text{walls}} 
-  + \dot{m} \left( h_{\text{in}} - h_{\text{out}} \right)
-\]
+
+For a steady-periodic piston engine cycle, the general energy balance is:
+
+$$
+\text{Power}_{\text{shaft}}
+=
+\dot{Q}_{\text{walls}}
++
+\dot{m}\left( h_{\text{in}} - h_{\text{out}} \right)
+$$
+
+Where:
+
+- \( \dot{Q}_{\text{walls}} \) = heat transfer through the cylinder walls  
+- \( \dot{m} \) = mass flow rate  
+- \( h_{\text{in}}, h_{\text{out}} \) = inlet and exit enthalpies  
 
 ---
 
-# Performance Metrics
+## Performance Metrics
 
-For a piston engine cylinder operating in steady periodic cycles, the thermal efficiency can be written in the simplest form as:
+Thermal efficiency for a single-cylinder piston cycle can be expressed as:
 
-\[
-\eta = \frac{\text{work done by shaft}}{\text{heat in}}
-\]
+$$
+\eta = 
+\frac{W_{\text{shaft}}}{Q_{\text{in}}}
+$$
+
+Where:
+
+- \( W_{\text{shaft}} \) = net work delivered to the crankshaft  
+- \( Q_{\text{in}} \) = heat added during combustion  
+
+For idealized analysis (Otto cycle), efficiency depends on the compression ratio \( r \):
+
+$$
+\eta_{\text{otto}} = 1 - r^{\,1-\gamma}
+$$
 
 ---
 
-# Design Change
+## Design Change: Increasing the Compression Ratio
 
-Increase the **compression ratio** (how much the engine squeezes the air–fuel mixture).
+A modification was made to increase the engine’s compression ratio:
 
-- **Baseline engine:** 8:1 compression  
-- **New design:** 11:1 compression  
+- **Original compression ratio:** 8:1  
+- **New compression ratio:** 11:1  
 
-This is achieved by reducing the clearance volume at top dead center (changing piston/head geometry).
+This reduces the clearance volume at top dead center, which:
+
+- increases peak pressure and temperature,  
+- improves thermal efficiency,  
+- increases the mean effective pressure (MEP),  
+- and results in more shaft work per cycle.
+
+Geometric changes required:
+
+- reshaping the piston crown,  
+- reducing the combustion chamber clearance height,  
+- preserving valve clearances to avoid mechanical interference.
+
+---
+
+## Summary
+
+In this project, a simplified thermodynamic model of a piston engine was analyzed through:
+
+- characterization of the four-stroke cycle,  
+- application of mass and energy balances,  
+- evaluation of thermal efficiency, and  
+- implementation of a compression-ratio improvement strategy.
+
+The design change demonstrates how small geometric modifications in the combustion chamber can meaningfully improve engine performance through increased pressure ratios and improved combustion efficiency.
+
