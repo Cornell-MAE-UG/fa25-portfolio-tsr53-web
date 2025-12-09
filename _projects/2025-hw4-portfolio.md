@@ -7,7 +7,7 @@ image: /assets/images/IMA55DESIGN.png
 ---
 
 
-# HW12 Portfolio Update – IMA55 Actuator (35.8 kN)
+# HW12 Portfolio Update 3 – IMA55 Actuator (35.8 kN)
 
 For this update I redesigned my HW5 mechanism using the larger IMA55 actuator (max force 35.8 kN).  
 The design space is 150 cm × 50 cm. I used a 120 cm bar, two ground pins, one bar pin for the actuator, and the load at the far end.
