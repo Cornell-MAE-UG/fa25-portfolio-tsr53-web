@@ -111,4 +111,4 @@ The concept demonstrates how systems-level mechanical design can improve agricul
 
 # Full Client Outline & Pitch (PDF)
 
-[Download Full Client Outline & Pitch (PDF)](/assets/pdfs/ODP3_Client_Outline_Pitch.pdf)
+[Download Full Client Outline & Pitch (PDF)](assets/pdfs/ODP 3_ Client Outline & Pitch.pdf)
