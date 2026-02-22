@@ -15,6 +15,8 @@ date: 2026-02-21
 
 During mechanical harvesting in upstate New York vineyards, Spotted Lanternflies (SLF) contaminate harvested grapes. Because grapes are partially liquified during mechanical harvesting and product quality standards are strict, simple filtering methods are ineffective.
 
+Contamination leads to wasted product, additional labor, and reduced processing efficiency.
+
 ---
 
 ## Impact
@@ -25,6 +27,7 @@ This project introduces a modular in-line attachment that:
 - Preserves usable grape juice  
 - Maintains harvest efficiency  
 - Minimizes modification to existing equipment  
+- Maintains compatibility with existing vineyard machinery  
 
 ---
 
@@ -34,6 +37,8 @@ This project introduces a modular in-line attachment that:
 2. Filter SLFs from grapes  
 3. Filter the extracted juice  
 4. Recombine grapes and juice before final collection  
+
+This maintains product integrity while eliminating contamination.
 
 ---
 
@@ -53,14 +58,14 @@ Filtration stages:
 
 ## Prototype Sketch
 
-![SLF Prototype Concept]({{ site.baseurl }}/assets/images/slf-prototype.png)
+![SLF Prototype Concept](/assets/images/slf-prototype.png)
 
 ---
 
 ## Full Client Outline (PDF)
 
-[Download Full Project Outline (PDF)]({{ site.baseurl }}/assets/O3_ClientOutline.pdf)
+[Download Full Project Outline (PDF)](/assets/pdfs/O3_ClientOutline.pdf)
 
-<iframe src="{{ site.baseurl }}/assets/O3_ClientOutline.pdf"
+<iframe src="/assets/pdfs/O3_ClientOutline.pdf"
         width="100%" height="650px">
 </iframe>
